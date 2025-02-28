@@ -7,7 +7,7 @@ export default function LandingPage() {
   return (
     <>
       <Head>
-        <title>KOVA - Own, Control, and Protect Your AI</title>
+        <title>KOVA - Own Your Agent.</title>
         <meta name="description" content="Own, control, and protect your AI. KOVA is the secure AI network for builders, investors, and early adopters. Join the future today." />
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700;800&family=Work+Sans:wght@300;400&family=Fira+Code&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" href="/favicon.png" sizes="512x512" />
@@ -42,7 +42,7 @@ export default function LandingPage() {
             
             <div className="relative z-10">
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight mb-8 font-['IBM_Plex_Sans'] text-[#333333] drop-shadow-sm">
-                KOVA - Own Your Agent. Own Your Pulse.
+                KOVA - Own Your Agent. Own Your Future.
               </h1>
               <p className="text-xl md:text-2xl mb-16 max-w-3xl mx-auto text-[#555555] font-['Work_Sans'] font-light">
                 Secure and private—built for your data, your rules.  
@@ -93,10 +93,10 @@ export default function LandingPage() {
 
           <section className="py-12 mb-10">  
   <div className="bg-[#FAFAFA] text-[#111111] p-10 rounded-lg shadow-[0_5px_20px_rgba(0,0,0,0.05)] transform transition-all hover:shadow-[0_5px_25px_rgba(0,0,0,0.08)] hover:shadow-[#FF5C00]/5 duration-300 border border-[#CCCCCC]/20">
-    <h2 className="text-2xl md:text-3xl font-['IBM_Plex_Sans'] font-semibold mb-4">Break Free from Big Tech</h2>
+    <h2 className="text-2xl md:text-3xl font-['IBM_Plex_Sans'] font-semibold mb-4">Break Free from Big Tech’s Control</h2>
     <p className="text-xl font-['Work_Sans'] leading-relaxed mb-6">
-    KOVA is the first AI platform that guarantees ownership and privacy—no surveillance, no censorship.  
-        </p>
+    KOVA is the first AI platform where <strong className="font-bold">you</strong> control your AI Agents—no corporate surveillance, no hidden censorship.
+    </p>
 
     <div className="text-center">
       <p className="text-lg font-['Work_Sans'] text-[#555555]">
