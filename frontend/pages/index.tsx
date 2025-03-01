@@ -50,12 +50,17 @@ export default function LandingPage() {
 
               {/*  Video Section  */}
               <div className="relative w-full max-w-4xl mx-auto mb-16 rounded-lg overflow-hidden group perspective-1000">
+              <p className="text-lg text-[#555555] font-['Work_Sans'] mb-2">
+                  🎬 1-Minute Explainer Video
+                  </p>
                 <div className="relative transform transition-transform duration-500 group-hover:scale-[1.02] shadow-[0_10px_30px_rgba(0,0,0,0.1)] border-2 border-[#CCCCCC] group-hover:border-[#FF5C00] group-hover:shadow-[0_10px_30px_rgba(255,92,0,0.1)] rounded-lg">
+             
                   <div className="absolute inset-0 bg-gradient-to-tr from-[#111111]/5 to-transparent z-10 pointer-events-none"></div>
+                 
                   <div className="relative pb-[56.25%]"> {/* 16:9 aspect ratio */}
                     <iframe 
                       className="absolute top-0 left-0 w-full h-full"
-                      src="https://www.youtube.com/embed/SRBjLBo28v0?rel=0" 
+                      src="https://www.youtube.com/embed/9ZoSBpoFVO8?rel=0" 
                       title="KOVA - Own, Control, and Protect Your AI"
                       frameBorder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -93,10 +98,10 @@ export default function LandingPage() {
 
           <section className="py-12 mb-10">  
   <div className="bg-[#FAFAFA] text-[#111111] p-10 rounded-lg shadow-[0_5px_20px_rgba(0,0,0,0.05)] transform transition-all hover:shadow-[0_5px_25px_rgba(0,0,0,0.08)] hover:shadow-[#FF5C00]/5 duration-300 border border-[#CCCCCC]/20">
-    <h2 className="text-2xl md:text-3xl font-['IBM_Plex_Sans'] font-semibold mb-4">Break Free from Big Tech’s Control</h2>
+    <h2 className="text-2xl md:text-3xl font-['IBM_Plex_Sans'] font-semibold mb-4">Your AI. Your Rules.</h2>
     <p className="text-xl font-['Work_Sans'] leading-relaxed mb-6">
-    KOVA is the first AI platform where <strong className="font-bold">you</strong> control your AI Agents—no corporate surveillance, no hidden censorship.
-    </p>
+  KOVA is the first AI platform where <strong className="font-bold">you</strong> fully own and control your AI Agents-private by design and censorship-free.
+      </p>
 
     <div className="text-center">
       <p className="text-lg font-['Work_Sans'] text-[#555555]">
@@ -131,7 +136,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold ml-3 font-['IBM_Plex_Sans'] text-[#111111] group-hover:text-[#FF5C00] transition-colors">Mint Your Agent</h3>
                   </div>
                   <p className="text-[#555555] font-['Work_Sans']">
-                  Each AI Agent is stored on-chain as an NFT. Trade, license, or sell it freely—no corporate restrictions.                  </p>
+                  Each AI Agent is stored on-chain as an NFT. Trade, license, or sell it freely with full autonomy.                  </p>
                 </div>
 
                 {/* Step 2: Private Computation */}
@@ -157,7 +162,8 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold ml-3 font-['IBM_Plex_Sans'] text-[#111111] group-hover:text-[#FF5C00] transition-colors">Profit Your Way</h3>
                   </div>
                   <p className="text-[#555555] font-['Work_Sans']">
-                  Encrypt prompts and logic to control sharing. License your Agent’s skills, sell insights, or collaborate—you set the terms .</p>
+                  Encrypt your workflows and control sharing. License your Agent’s skills, sell insights securely, or collaborate—you set the terms.
+                  </p>
                 </div>
               </div>
             </div>
@@ -220,7 +226,7 @@ export default function LandingPage() {
                 The Future of KOVA
               </h2>
               <p className="text-xl md:text-2xl font-semibold mb-10 text-[#FF5C00] font-['IBM_Plex_Sans']">
-                Own your AI. Own your future.
+                Own your Agent. Own your future.
               </p>
               
               <div className="space-y-6 mb-12 text-left md:text-center">
@@ -241,7 +247,7 @@ export default function LandingPage() {
                 <div className="flex flex-col md:items-center">
                   <div className="bg-[#FF5C00]/5 w-16 h-1 mb-4 rounded-full"></div>
                   <p className="text-xl font-['Work_Sans'] leading-relaxed">
-                    AI Agents become personal assets, not corporate property.
+                  AI Agents become personal assets controlled by you. 
                   </p>
                 </div>
               </div>
@@ -272,7 +278,7 @@ export default function LandingPage() {
                   />
                 </div>
                 <p className="text-[#555555] font-['Work_Sans'] mb-4">
-                  AI Agents that work for you—not corporations.
+                  AI Agents that work for you
                 </p>
                 <p className="text-[#555555] font-['Work_Sans'] mb-2">
                   <span className="text-[#FF5C00]">✉️</span> <a href="mailto:felix@kova.sh" className="hover:text-[#FF5C00] hover:underline transition-colors">felix@kova.sh</a>
